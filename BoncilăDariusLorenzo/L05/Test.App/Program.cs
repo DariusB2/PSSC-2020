@@ -23,7 +23,7 @@ namespace Test.App
                     {
                         SendResetPasswordLink(email);
 
-                        Console.WriteLine("Email address is valid!");
+                        Console.WriteLine("Email address is valid!!");
                         return Unit.Default;
                     },
                     Fail: ex =>
